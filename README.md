@@ -1,1 +1,1 @@
-# This folder is for the about_me labs in Code 102
+# This webpage is for the about_me labs in Code 102
