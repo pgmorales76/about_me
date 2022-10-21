@@ -90,7 +90,7 @@ if (butter === 'yeah' || butter === 'no') {
 }
 
 if (toested === 'yeah') {
-  order = toested + 'toasted bagel.';
+  order = toested + ' toasted bagel with butter.';
 }
 
 if (cough_ee === 'yeah') {
