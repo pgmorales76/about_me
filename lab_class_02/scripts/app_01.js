@@ -36,7 +36,7 @@ if (cream_cheese === 'yeah' || cream_cheese === 'no') {
   alert('You ordered a bagel with, or without, cream cheese.');
 }
 
-alert('You answered ' + butter + ' to buttahh ' + cream_cheese + ' to cream cheese. ');
+alert('You answered ' + butter + ' to buttahh; ' + cream_cheese + ' to cream cheese. ');
 
 // console.log(cream_cheese);
 
@@ -56,7 +56,7 @@ if (toested === 'yeah' || cream_cheese === 'no') {
   alert('You ordered a toasted, or untoasted, bagel.');
 }
 
-alert('You answered ' + butter + ' to buttahh ' + cream_cheese + ' to cream cheese ' + toested + ' to toested. ');
+alert('You answered ' + butter + ' to buttahh; ' + cream_cheese + ' to cream cheese; ' + toested + ' to toested. ');
 
 // console.log(toested);
 
@@ -76,7 +76,7 @@ if (cough_ee === 'yeah' || cough_ee === 'no') {
   alert('You ordered coffee, or you did not.');
 }
 
-alert('You answered ' + butter + ' to buttahh ' + cream_cheese + ' to cream cheese ' + toested + ' to toested and ' + cough_ee + ' to cough-ee. ');
+alert('You answered ' + butter + ' to buttahh; ' + cream_cheese + ' to cream cheese; ' + toested + ' to toested and; ' + cough_ee + ' to cough-ee. ');
 
 // console.log(cough_ee);
 
