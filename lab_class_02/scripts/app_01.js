@@ -11,6 +11,11 @@ if (butter === 'no') {
   alert('Why not!');
 }
 
+//  logical OR example
+if (butter === 'yeah' || butter === 'no') {
+  alert('You ordered a bagel with, or without, butter.');
+}
+
 alert('You answered ' + butter + ' to buttahh. ');
 
 // console.log(butter);
@@ -24,6 +29,11 @@ if (cream_cheese === 'yeah') {
 
 if (cream_cheese === 'no') {
   alert('Good!');
+}
+
+//  logical OR example
+if (cream_cheese === 'yeah' || cream_cheese === 'no') {
+  alert('You ordered a bagel with, or without, cream cheese.');
 }
 
 alert('You answered ' + butter + ' to buttahh ' + cream_cheese + ' to cream cheese. ');
@@ -41,6 +51,11 @@ if (toested === 'no') {
   alert('Cumahhhnnn!!!');
 }
 
+//  logical OR example
+if (toested === 'yeah' || cream_cheese === 'no') {
+  alert('You ordered a toasted, or untoasted, bagel.');
+}
+
 alert('You answered ' + butter + ' to buttahh ' + cream_cheese + ' to cream cheese ' + toested + ' to toested. ');
 
 // console.log(toested);
@@ -56,14 +71,16 @@ if (cough_ee === 'no') {
   alert('fuggedaboutit!');
 }
 
+//  logical OR example
+if (cough_ee === 'yeah' || cough_ee === 'no') {
+  alert('You ordered coffee, or you did not.');
+}
+
 alert('You answered ' + butter + ' to buttahh ' + cream_cheese + ' to cream cheese ' + toested + ' to toested and ' + cough_ee + ' to cough-ee. ');
 
 // console.log(cough_ee);
 
-//  logical OR example
-// if (size === 'large' || size === 'medium') {
-//   alert('you ordered a large or medium pizza');
-// }
+
 
 // STRETCH GOALS!
 // let order = '';
