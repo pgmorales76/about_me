@@ -80,7 +80,24 @@ alert('You answered ' + butter + ' to buttahh ' + cream_cheese + ' to cream chee
 
 // console.log(cough_ee);
 
+// STRETCH GOALS!
+let order = '';
 
+if (butter === 'yeah' || butter === 'no') {
+  order = 'You want ' + butter + 'butter on the bagel.';
+} else {
+  order = 'Gimme that orduh, again!?';
+}
+
+if (toested === 'yeah') {
+  order = toested + 'toasted bagel.';
+}
+
+if (cough_ee === 'yeah') {
+  order = order + ' and cough-ee (Good choice!).';
+}
+
+alert(order);
 
 // STRETCH GOALS!
 // let order = '';
