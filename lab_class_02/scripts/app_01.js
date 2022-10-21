@@ -98,22 +98,3 @@ if (cough_ee === 'yeah') {
 }
 
 alert(order);
-
-// STRETCH GOALS!
-// let order = '';
-
-// if (size === 'large' || size === 'medium' || size === 'small') {
-//   order = 'You want a ' + size + ' sized pizza.';
-// } else {
-//   order = 'You want a ??? sized pizza.';
-// }
-
-// if (answer1 === 'yes') {
-//   order = order + ' With pepperoni.';
-// }
-
-// if (answer2 === 'yes') {
-//   order = order + ' With anchovies (gross)';
-// }
-
-// alert(order);
