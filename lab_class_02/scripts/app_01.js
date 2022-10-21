@@ -16,11 +16,11 @@
 let butter = prompt("Want buttahh? (yeah/no)");
 console.log("The butter variable is:", butter);
 
-// if (answer1 === 'yeah') {
+// if (butter === 'yeah') {
 //   alert('Good!');
 // }
 
-// if (answer1 === 'no') {
+// if (butter === 'no') {
 //   alert('Why not!');
 // }
 
