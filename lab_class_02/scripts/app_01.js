@@ -1,18 +1,5 @@
 'use sctrict';
 
-// Ask what sized pizza the user wants
-// let size = prompt('What sized pizza do you want?');
-// console.log('the size variable is:', size);
-
-// let butter = prompt('Do you want pepperoni on your pizza?');
-// console.log('pepperoni answer is:', butter);
-
-// let cream_cheese = prompt('Do you want anchovies?');
-// console.log('anchovies answer is:', cream_cheese);
-
-// String concatenation
-// alert('You answered ' + butter + ' to the pepperoni question');
-
 let butter = prompt('Want buttahh? (yeah/no)');
 console.log('The butter variable is:', butter);
 
