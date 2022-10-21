@@ -4,14 +4,14 @@
 // let size = prompt('What sized pizza do you want?');
 // console.log('the size variable is:', size);
 
-// let answer1 = prompt('Do you want pepperoni on your pizza?');
-// console.log('pepperoni answer is:', answer1);
+// let butter = prompt('Do you want pepperoni on your pizza?');
+// console.log('pepperoni answer is:', butter);
 
-// let answer2 = prompt('Do you want anchovies?');
-// console.log('anchovies answer is:', answer2);
+// let cream_cheese = prompt('Do you want anchovies?');
+// console.log('anchovies answer is:', cream_cheese);
 
 // String concatenation
-// alert('You answered ' + answer1 + ' to the pepperoni question');
+// alert('You answered ' + butter + ' to the pepperoni question');
 
 let butter = prompt('Want buttahh? (yeah/no)');
 console.log('The butter variable is:', butter);
@@ -26,47 +26,49 @@ if (butter === 'no') {
 
 alert('You answered ' + butter + ' to buttahh. ');
 
-// console.log(answer1);
+// console.log(butter);
 
 let cream_cheese = prompt('Want cream cheese? (yeah/no)');
 console.log('The cream cheese variable is:', cream_cheese);
 
-if (answer2 === 'yeah') {
+if (cream_cheese === 'yeah') {
   alert('Aright, aright. Relax!');
 }
 
-if (answer2 === 'no') {
+if (cream_cheese === 'no') {
   alert('Good!');
 }
 
-alert('You answered ' + answer1 + ' to buttahh ' + answer2 + ' to cream cheese. ');
+alert('You answered ' + butter + ' to buttahh ' + cream_cheese + ' to cream cheese. ');
 
-console.log(answer2);
+// console.log(cream_cheese);
 
-let answer3 = prompt('Wanit toested? (yeah/no)');
+let toested = prompt('Wanit toested? (yeah/no)');
+console.log('The toested variable is:', toested);
 
-if (answer3 === 'yeah') {
+if (toested === 'yeah') {
   alert('Good!');
 }
 
-if (answer3 === 'no') {
+if (toested === 'no') {
   alert('Cumahhhnnn!!!');
 }
 
-alert('You answered ' + answer1 + ' to buttahh ' + answer2 + ' to cream cheese ' + answer3 + ' to toested. ');
+alert('You answered ' + butter + ' to buttahh ' + cream_cheese + ' to cream cheese ' + toested + ' to toested. ');
 
-console.log(answer3);
+// console.log(toested);
 
-let answer4 = prompt('Jooo want some cough-ee? (yeah/no)');
+let cough_ee = prompt('Jooo want some cough-ee? (yeah/no)');
+console.log('The coffee variable is:', cough_ee);
 
-if (answer4 === 'yeah') {
+if (cough_ee === 'yeah') {
   alert('aright, aright! Relax!');
 }
 
-if (answer4 === 'no') {
+if (cough_ee === 'no') {
   alert('fuggedaboutit!');
 }
 
-alert('You answered ' + answer1 + ' to buttahh ' + answer2 + ' to cream cheese ' + answer3 + ' to toested and ' + answer4 + ' to cough-ee. ');
+alert('You answered ' + butter + ' to buttahh ' + cream_cheese + ' to cream cheese ' + toested + ' to toested and ' + cough_ee + ' to cough-ee. ');
 
-console.log(answer4);
+// console.log(cough_ee);
