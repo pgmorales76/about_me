@@ -1,14 +1,28 @@
 'use sctrict';
 
-let answer1 = prompt('Want buttahh? (yeah/no)');
+// Ask what sized pizza the user wants
+// let size = prompt('What sized pizza do you want?');
+// console.log('the size variable is:', size);
 
-if (answer1 === 'yeah') {
-  alert('Good!');
-}
+// let answer1 = prompt('Do you want pepperoni on your pizza?');
+// console.log('pepperoni answer is:', answer1);
 
-if (answer1 === 'no') {
-  alert('Why not!');
-}
+// let answer2 = prompt('Do you want anchovies?');
+// console.log('anchovies answer is:', answer2);
+
+// String concatenation
+// alert('You answered ' + answer1 + ' to the pepperoni question');
+
+let butter = prompt("Want buttahh? (yeah/no)");
+console.log("The butter variable is:", butter);
+
+// if (answer1 === 'yeah') {
+//   alert('Good!');
+// }
+
+// if (answer1 === 'no') {
+//   alert('Why not!');
+// }
 
 alert('You answered ' + answer1 + ' to buttahh. ');
 
