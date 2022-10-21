@@ -72,3 +72,27 @@ if (cough_ee === 'no') {
 alert('You answered ' + butter + ' to buttahh ' + cream_cheese + ' to cream cheese ' + toested + ' to toested and ' + cough_ee + ' to cough-ee. ');
 
 // console.log(cough_ee);
+
+//  logical OR example
+// if (size === 'large' || size === 'medium') {
+//   alert('you ordered a large or medium pizza');
+// }
+
+// STRETCH GOALS!
+// let order = '';
+
+// if (size === 'large' || size === 'medium' || size === 'small') {
+//   order = 'You want a ' + size + ' sized pizza.';
+// } else {
+//   order = 'You want a ??? sized pizza.';
+// }
+
+// if (answer1 === 'yes') {
+//   order = order + ' With pepperoni.';
+// }
+
+// if (answer2 === 'yes') {
+//   order = order + ' With anchovies (gross)';
+// }
+
+// alert(order);
