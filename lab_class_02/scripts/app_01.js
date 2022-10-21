@@ -13,8 +13,8 @@
 // String concatenation
 // alert('You answered ' + answer1 + ' to the pepperoni question');
 
-let butter = prompt("Want buttahh? (yeah/no)");
-console.log("The butter variable is:", butter);
+let butter = prompt('Want buttahh? (yeah/no)');
+console.log('The butter variable is:', butter);
 
 if (butter === 'yeah') {
   alert('Good!');
@@ -24,11 +24,12 @@ if (butter === 'no') {
   alert('Why not!');
 }
 
-alert('You answered ' + answer1 + ' to buttahh. ');
+alert('You answered ' + butter + ' to buttahh. ');
 
 // console.log(answer1);
 
-let answer2 = prompt('Want cream cheese? (yeah/no)');
+let cream_cheese = prompt('Want cream cheese? (yeah/no)');
+console.log('The cream cheese variable is:', cream_cheese);
 
 if (answer2 === 'yeah') {
   alert('Aright, aright. Relax!');
