@@ -26,7 +26,7 @@ if (butter === 'no') {
 
 alert('You answered ' + answer1 + ' to buttahh. ');
 
-console.log(answer1);
+// console.log(answer1);
 
 let answer2 = prompt('Want cream cheese? (yeah/no)');
 
