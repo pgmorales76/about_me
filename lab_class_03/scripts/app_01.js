@@ -1,5 +1,7 @@
 'use sctrict';
 
+console.log('Hello world!');
+
 let butter = prompt('Want buttahh? (yeah/no)');
 console.log('The butter variable is:', butter);
 
