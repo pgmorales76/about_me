@@ -15,17 +15,6 @@ ol {
     margin-left: 2rem;
 }
 
-#heading {
-    margin: 1rem 0 1rem 0;
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-#lifeStory {
-    width: 70%;
-    margin: auto;
-}
-
 .butter {
     color: yellow;
     background-color: purple;
@@ -48,4 +37,5 @@ ol {
 
 .movies{
     color: red;
+
 }
