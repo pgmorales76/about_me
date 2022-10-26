@@ -111,7 +111,7 @@ while (attempts && !answered_correctly) {
     alert('Too low, pal!');
   }
   if (response >= 6) {
-    alert('Cumaahhnnn! I"m not gonna make ya buy that much! Lower!');
+    alert('Cumaahhnnn! I\'m not gonna make ya buy that much! Lower!');
   }
   if (response === correct_answer) {
     alert('Correct!');
