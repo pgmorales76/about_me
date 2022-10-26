@@ -120,5 +120,5 @@ while (attempts && !answered_correctly) {
   attempts--;
 }
 
-prompt('The ansah wuz 5, pal! Now go get pay for em!');
+prompt('The ansah wuz 5, pal! Now go pay for em!');
 
