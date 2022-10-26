@@ -110,8 +110,9 @@ while (attempts && !answered_correctly) {
   if (response <= 4) {
     alert('Too low, pal!');
   }
-  if (response >= 6)
+  if (response >= 6) {
     alert('Cumaahhnnn! I"m not gonna make ya buy that much! Lower!');
+  }
   if (response === correct_answer) {
     alert('Correct!');
     answered_correctly = true;
