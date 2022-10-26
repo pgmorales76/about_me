@@ -122,3 +122,23 @@ while (attempts && !answered_correctly) {
 
 prompt('The ansah wuz 5, pal! Now go pay for em!');
 
+let best_selling_bagels = ['everything', 'plain', 'egg', 'salt', 'cinnamon raisin'];
+let second_question_guessing_game = false;
+let bagel_question_attempts = 0;
+
+while (!second_question_guessing_game && bagel_question_attempts < 7) {
+  let second_question_guessing_game = prompt('What bagel flavors are the best selling?').toLowerCase();
+
+  for (let i = 0; i < best_selling_bagels.length; i++) {
+    if (bagel_question_attempts === best_selling_bagels[i]) {
+      bagel_question_attempts = bagel_question_attempts + 1;
+      second_question_guessing_game = true;
+    }
+  }
+  if (second_question_guessing_game) {
+    alert('That\'s right! It took ' + bagel_question_attempts + ' attempts');
+  }
+  else {
+    alert('Nah, man!');
+  }
+}
