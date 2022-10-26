@@ -105,7 +105,6 @@ let attempts = 4;
 let correct_answer = 5;
 let answered_correctly = false;
 
-// TODO comment in and run the next 9 lines of code. what happens?
 while (attempts && !answered_correctly) {
   let response = prompt(`You get ${attempts} attempts. I'm thinking of a number between 0 and 9. How many bagels are ya gonna buy?!`);
   if (response <= 4) {
