@@ -126,7 +126,7 @@ let best_selling_bagels = ['everything', 'plain', 'egg', 'salt', 'cinnamon raisi
 let second_question_guessing_game = false;
 let bagel_question_attempts = 0;
 
-while (!second_question_guessing_game && bagel_question_attempts < 7) {
+while (!second_question_guessing_game && bagel_question_attempts < 6) {
   let second_question_guessing_game = prompt('What bagel flavors are the best selling?').toLowerCase();
 
   for (let i = 0; i < best_selling_bagels.length; i++) {
