@@ -107,10 +107,18 @@ let answered_correctly = false;
 
 // TODO comment in and run the next 9 lines of code. what happens?
 while (attempts && !answered_correctly) {
-  let response = prompt(`You get  ${attempts} attempts. I'm thinking of a number between 0 and 9. How many bagels are ya gonna buy?!`);
+  let response = prompt(`You get ${attempts} attempts. I'm thinking of a number between 0 and 9. How many bagels are ya gonna buy?!`);
+  if (response <= 4) {
+    alert('Too low, pal!');
+  }
+  if (response >= 6)
+    alert('Cumaahhnnn! I"m not gonna make ya buy that much! Lower!');
   if (response === correct_answer) {
     alert('Correct!');
     answered_correctly = true;
   }
   attempts--;
 }
+
+prompt('The ansah wuz 5, pal! Now go get pay for em!');
+
