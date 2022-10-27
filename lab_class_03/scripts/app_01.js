@@ -131,11 +131,11 @@ let bagel_question_attempts = 0;
 while (!second_question_guessing_game && bagel_question_attempts < 6) {
   // assigning an input to another variable
   let response = prompt('What bagel flavors are the best selling?').toLowerCase();
-// i represents index
+  // i represents index
   for (let i = 0; i < best_selling_bagels.length; i++) {
-    if (bagel_question_attempts === best_selling_bagels[i]) {
-      bagel_question_attempts = bagel_question_attempts + 1;
-      second_question_guessing_game = true;
+    if (response === best_selling_bagels[i]) {
+      // bagel_question_attempts = bagel_question_attempts + 1;
+      // second_question_guessing_game = true;
     }
   }
   if (second_question_guessing_game) {
@@ -143,5 +143,6 @@ while (!second_question_guessing_game && bagel_question_attempts < 6) {
   }
   else {
     alert('Nah, man!');
+    // bagel_question_attempts = bagel_question_attempts + 1;
   }
 }
