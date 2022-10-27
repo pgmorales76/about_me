@@ -103,9 +103,11 @@ alert(order);
 
 let attempts = 4;
 let correct_answer = 5;
+// whether the user answered the question incorrectly
 let answered_correctly = false;
 
 while (attempts && !answered_correctly) {
+  // assigning an input to another variable
   let response = prompt(`You get ${attempts} attempts. I'm thinking of a number between 0 and 9. How many bagels are ya gonna buy?!`);
   if (response <= 4) {
     alert('Too low, pal!');
@@ -119,7 +121,7 @@ while (attempts && !answered_correctly) {
   }
   attempts--;
 }
-
+//When the code gets to here, the user got the right answer, or ran out of attempta
 prompt('The ansah wuz 5, pal! Now go pay for em!');
 
 let best_selling_bagels = ['everything', 'plain', 'egg', 'salt', 'cinnamon raisin'];
@@ -127,8 +129,9 @@ let second_question_guessing_game = false;
 let bagel_question_attempts = 0;
 
 while (!second_question_guessing_game && bagel_question_attempts < 6) {
-  let second_question_guessing_game = prompt('What bagel flavors are the best selling?').toLowerCase();
-
+  // assigning an input to another variable
+  let response = prompt('What bagel flavors are the best selling?').toLowerCase();
+// i represents index
   for (let i = 0; i < best_selling_bagels.length; i++) {
     if (bagel_question_attempts === best_selling_bagels[i]) {
       bagel_question_attempts = bagel_question_attempts + 1;
