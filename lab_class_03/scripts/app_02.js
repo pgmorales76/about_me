@@ -120,29 +120,34 @@ let best_selling_bagels = ['everything', 'plain', 'egg', 'salt', 'cinnamon raisi
 let second_question_guessing_game = false;
 let bagel_question_attempts = 0;
 
-while (!second_question_guessing_game && bagel_question_attempts < 6) {
-  // assigning an input to another variable
-  let response = prompt('What bagel flavors are the best selling? Please pick one: Sugar, Onion, Plain, Salt, Sesame Seeds, Everything, Poppy Seeds, Wheat, Egg, French Toast, Cinnamon Raisin').toLowerCase();
-// i represents index
-  for (let i = 0; i < best_selling_bagels.length; i++) {
-    if (response === best_selling_bagels[i]) {
-    // if (bagel_question_attempts === best_selling_bagels[i]) {
-      second_question_guessing_game = true;
+best_selling();
+
+function best_selling() {
+  while (!second_question_guessing_game && bagel_question_attempts < 6) {
+    // assigning an input to another variable
+    let response = prompt('What bagel flavors are the best selling? Please pick one: Sugar, Onion, Plain, Salt, Sesame Seeds, Everything, Poppy Seeds, Wheat, Egg, French Toast, Cinnamon Raisin').toLowerCase();
+    // i represents index
+    for (let i = 0; i < best_selling_bagels.length; i++) {
+      if (response === best_selling_bagels[i]) {
+        // if (bagel_question_attempts === best_selling_bagels[i]) {
+        second_question_guessing_game = true;
+      }
+    }
+    if (second_question_guessing_game) {
+      alert('That\'s right! It took ' + bagel_question_attempts + ' attempts');
+      guessing_game_result++;
+    }
+    else {
+      alert('Nah, man!');
+      bagel_question_attempts++;
     }
   }
-  if (second_question_guessing_game) {
-    alert('That\'s right! It took ' + bagel_question_attempts + ' attempts');
-    guessing_game_result++;
+  if (guessing_game_result < 1) {
+    alert('You guessed ' + guessing_game_result + ' out of 2 right.');
+  } else if (guessing_game_result > 1) {
+    alert('You got both questions right!');
+  } else {
+    alert('You guessed ' + guessing_game_result + ' out of 2 right.');
   }
-  else {
-    alert('Nah, man!');
-    bagel_question_attempts++;
-  }
-}
-if (guessing_game_result < 1) {
-  alert('You guessed ' + guessing_game_result + ' out of 2 right.');
-} else if (guessing_game_result > 1) {
-  alert('You got both questions right!');
-} else {
-  alert ('You guessed ' + guessing_game_result + ' out of 2 right.');
+
 }
