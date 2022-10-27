@@ -100,9 +100,10 @@ if (cough_ee === 'yeah') {
 }
 
 alert(order);
+let guessing_game_result = 0;
 
 let attempts = 4;
-let correct_answer = 5;
+let correct_answer = '5';
 // whether the user answered the question incorrectly
 let answered_correctly = false;
 
@@ -111,13 +112,13 @@ while (attempts && !answered_correctly) {
   let response = prompt(`You get ${attempts} attempts. I'm thinking of a number between 0 and 9. How many bagels are ya gonna buy?!`);
   if (response <= 4) {
     alert('Too low, pal!');
-  }
-  if (response >= 6) {
+  } else if (response >= 6) {
     alert('Cumaahhnnn! I\'m not gonna make ya buy that much! Lower!');
-  }
-  if (response === correct_answer) {
+  } else if (response === correct_answer) {
     alert('Correct!');
     answered_correctly = true;
+    guessing_game_result++;
+    break;
   }
   attempts--;
 }
@@ -130,18 +131,28 @@ let bagel_question_attempts = 0;
 
 while (!second_question_guessing_game && bagel_question_attempts < 6) {
   // assigning an input to another variable
-  let response = prompt('What bagel flavors are the best selling?').toLowerCase();
+  let response = prompt('What bagel flavors are the best selling? Please pick one: Sugar, Onion, Plain, Salt, Sesame Seeds, Everything, Poppy Seeds, Wheat, Egg, French Toast, Cinnamon Raisin').toLowerCase();
 // i represents index
   for (let i = 0; i < best_selling_bagels.length; i++) {
-    if (bagel_question_attempts === best_selling_bagels[i]) {
-      bagel_question_attempts = bagel_question_attempts + 1;
+    if (response === best_selling_bagels[i]) {
+    // if (bagel_question_attempts === best_selling_bagels[i]) {
       second_question_guessing_game = true;
     }
   }
   if (second_question_guessing_game) {
     alert('That\'s right! It took ' + bagel_question_attempts + ' attempts');
+    guessing_game_result++;
   }
   else {
     alert('Nah, man!');
+    bagel_question_attempts++;
   }
+}
+
+if (guessing_game_result < 1) {
+  alert('You guessed ' + guessing_game_result + ' out of 2 right.');
+} else if (guessing_game_result > 1) {
+  alert('You got both questions right!');
+} else {
+  alert ('You guessed ' + guessing_game_result + ' out of 2 right.');
 }
