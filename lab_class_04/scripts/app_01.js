@@ -79,7 +79,7 @@ function order() {
     order = 'Gimme that orduh, again!?';
   }
   if (toested === 'yeah') {
-    order = toested + ' toasted bagel with butter.';
+    order = toested + ' toasted bagel with butter ';
   }
   if (cough_ee === 'yeah') {
     order = order + ' and cough-ee (Good choice!).';
