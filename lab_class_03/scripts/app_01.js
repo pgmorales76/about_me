@@ -71,12 +71,12 @@ if (cough_ee === 'yeah' || cough_ee === 'no') {
 // STRETCH GOALS!
 let order = '';
 if (butter === 'yeah' || butter === 'no') {
-  order = 'You want ' + butter + 'butter on the bagel.';
+  order = 'You want ' + butter + 'butter on the bagel';
 } else {
   order = 'Gimme that orduh, again!?';
 }
 if (toested === 'yeah') {
-  order = toested + ' toasted bagel with butter.';
+  order = toested + ' toasted bagel with butter';
 }
 if (cough_ee === 'yeah') {
   order = order + ' and cough-ee (Good choice!).';
