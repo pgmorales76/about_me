@@ -149,5 +149,5 @@ function best_selling() {
   } else {
     alert('You guessed ' + guessing_game_result + ' out of 2 right.');
   }
-
 }
+
