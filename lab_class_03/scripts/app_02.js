@@ -150,4 +150,3 @@ function best_selling() {
     alert('You guessed ' + guessing_game_result + ' out of 2 right.');
   }
 }
-
