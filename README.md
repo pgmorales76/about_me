@@ -1,4 +1,4 @@
-# This webpage is for the about_me labs in Code 102
+# This webpage is for the about_me labs in Code 201
 
 ## [Lab - Class 1B](https://pgmorales76.github.io/about_me/lab_class_01_b/)
 
