@@ -1,6 +1,5 @@
 'use sctrict';
 
-// proof of life
 console.log('Hello, world!');
 
 order();
@@ -30,14 +29,6 @@ function order() {
     alert('Good!');
   }
 
-  //  logical OR example
-  // if (cream_cheese === 'yeah' || cream_cheese === 'no') {
-  //   alert('You ordered a bagel with, or without, cream cheese.');
-  // }
-
-  // console.log('You answered ' + butter + ' to buttahh; ' + cream_cheese + ' to cream cheese. ');
-
-  // console.log(cream_cheese);
   let toested = prompt('Wanit toested? (yeah/no)');
   console.log('The toested variable is:', toested);
 
@@ -51,9 +42,6 @@ function order() {
     alert('You ordered a toasted, or untoasted, bagel.');
   }
 
-  // alert('You answered ' + butter + ' to buttahh; ' + cream_cheese + ' to cream cheese; ' + toested + ' to toested. ');
-
-  // console.log(toested);
   let cough_ee = prompt('Jooo want some cough-ee? (yeah/no)');
   console.log('The coffee variable is:', cough_ee);
 
@@ -68,10 +56,6 @@ function order() {
     alert('You ordered coffee, or you did not.');
   }
 
-  // alert('You answered ' + butter + ' to buttahh; ' + cream_cheese + ' to cream cheese; ' + toested + ' to toested and; ' + cough_ee + ' to cough-ee. ');
-
-  // console.log(cough_ee);
-  // STRETCH GOALS!
   let order = '';
   if (butter === 'yeah' || butter === 'no') {
     order = 'You want ' + butter + 'butter on the bagel.';
@@ -92,7 +76,6 @@ let guessing_game_result = 0;
 let attempts = 4;
 let correct_answer = '5';
 
-// whether the user answered the question incorrectly
 let answered_correctly = false;
 
 guessing_game();
@@ -100,7 +83,6 @@ guessing_game();
 function guessing_game() {
 
   while (attempts && !answered_correctly) {
-    // assigning an input to another variable
     let response = prompt(`You get ${attempts} attempts. I'm thinking of a number between 0 and 9. How many bagels are ya gonna buy?!`);
     if (response <= 4) {
       alert('Too low, pal!');
@@ -114,7 +96,6 @@ function guessing_game() {
     }
     attempts--;
   }
-  //When the code gets to here, the user got the right answer, or ran out of attempta
   alert('The ansah wuz 5, pal! Now go pay for em!');
 }
 
@@ -126,12 +107,10 @@ best_selling();
 
 function best_selling() {
   while (!second_question_guessing_game && bagel_question_attempts < 6) {
-    // assigning an input to another variable
     let response = prompt('What bagel flavors are the best selling? Please pick one: Sugar, Onion, Plain, Salt, Sesame Seeds, Everything, Poppy Seeds, Wheat, Egg, French Toast, Cinnamon Raisin').toLowerCase();
     // i represents index
     for (let i = 0; i < best_selling_bagels.length; i++) {
       if (response === best_selling_bagels[i]) {
-        // if (bagel_question_attempts === best_selling_bagels[i]) {
         second_question_guessing_game = true;
       }
     }
