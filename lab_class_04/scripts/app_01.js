@@ -18,7 +18,6 @@ function order() {
     console.log('You ordered a bagel with, or without, butter.');
   }
   console.log('You answered ' + butter + ' to buttahh. ');
-  // console.log(butter);
   let cream_cheese = prompt('Want cream cheese? (yeah/no)');
   console.log('The cream cheese variable is:', cream_cheese);
 
