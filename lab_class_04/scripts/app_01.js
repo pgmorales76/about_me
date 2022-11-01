@@ -28,7 +28,6 @@ function order() {
   } else if (toested === 'no') {
     alert('Cumahhhnnn!!!');
   }
-  //  logical OR example
   if (toested === 'yeah' || cream_cheese === 'no') {
     alert('You ordered a toasted, or untoasted, bagel.');
   }
@@ -97,7 +96,6 @@ best_selling();
 function best_selling() {
   while (!second_question_guessing_game && bagel_question_attempts < 6) {
     let response = prompt('What bagel flavors are the best selling? Please pick one: Sugar, Onion, Plain, Salt, Sesame Seeds, Everything, Poppy Seeds, Wheat, Egg, French Toast, Cinnamon Raisin').toLowerCase();
-    // i represents index
     for (let i = 0; i < best_selling_bagels.length; i++) {
       if (response === best_selling_bagels[i]) {
         second_question_guessing_game = true;
