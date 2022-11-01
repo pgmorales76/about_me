@@ -1,9 +1,12 @@
 'use sctrict';
 
+console.log('Hello, world!');
+
 order();
 
 function order() {
   let butter = prompt('Want buttahh? (yeah/no)');
+  console.log('The butter variable is:', butter);
 
   if (butter === 'yeah') {
     alert('Good!');
@@ -12,8 +15,12 @@ function order() {
   }
 
   if (butter === 'yeah' || butter === 'no') {
+    console.log('You ordered a bagel with, or without, butter.');
   }
+  console.log('You answered ' + butter + ' to buttahh. ');
+  // console.log(butter);
   let cream_cheese = prompt('Want cream cheese? (yeah/no)');
+  console.log('The cream cheese variable is:', cream_cheese);
 
   if (cream_cheese === 'yeah') {
     alert('Aright, aright. Relax!');
@@ -22,6 +29,7 @@ function order() {
   }
 
   let toested = prompt('Wanit toested? (yeah/no)');
+  console.log('The toested variable is:', toested);
 
   if (toested === 'yeah') {
     alert('Good!');
@@ -33,6 +41,7 @@ function order() {
   }
 
   let cough_ee = prompt('Jooo want some cough-ee? (yeah/no)');
+  console.log('The coffee variable is:', cough_ee);
 
   if (cough_ee === 'yeah') {
     alert('aright, aright! Relax!');
